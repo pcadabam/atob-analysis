@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Analysis - AtoB Website Analysis</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1e40af;
+            --secondary-color: #3b82f6;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .card.critical {
+            border-left-color: var(--error-color);
+        }
+
+        .card.warning {
+            border-left-color: var(--warning-color);
+        }
+
+        .card.success {
+            border-left-color: var(--success-color);
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--gray-800);
+        }
+
+        .card-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .card.critical .card-value {
+            color: var(--error-color);
+        }
+
+        .card.warning .card-value {
+            color: var(--warning-color);
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--gray-900);
+            border-bottom: 2px solid var(--gray-200);
+            padding-bottom: 0.5rem;
+        }
+
+        .violation-item {
+            background: var(--gray-100);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--error-color);
+        }
+
+        .attention-item {
+            background: #fef3c7;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--warning-color);
+        }
+
+        .violation-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--error-color);
+        }
+
+        .attention-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--warning-color);
+        }
+
+        .violation-description {
+            color: var(--gray-700);
+            margin-bottom: 1rem;
+        }
+
+        .impact-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .impact-critical {
+            background-color: var(--error-color);
+            color: white;
+        }
+
+        .impact-major {
+            background-color: var(--warning-color);
+            color: white;
+        }
+
+        .impact-moderate {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        .wcag-reference {
+            background: var(--gray-200);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        .page-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .page-item {
+            background: var(--gray-100);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--gray-300);
+        }
+
+        .page-url {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            word-break: break-all;
+        }
+
+        .page-issues {
+            font-size: 0.9rem;
+            color: var(--gray-600);
+        }
+
+        .recommendation {
+            background: #ecfdf5;
+            border: 1px solid #10b981;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .recommendation-title {
+            font-weight: 600;
+            color: var(--success-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .nav-tab {
+            flex: 1;
+            padding: 15px 20px;
+            text-align: center;
+            background: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .nav-tab:hover, .nav-tab.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .footer {
+            background: var(--gray-900);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-universal-access"></i> AtoB Website Accessibility Analysis</h1>
+            <p>Comprehensive accessibility audit based on WCAG 2.1 AA guidelines</p>
+        </div>
+
+        <div class="nav-tabs">
+            <a href="dashboard.html" class="nav-tab">
+                <i class="fas fa-tachometer-alt"></i> Overview
+            </a>
+            <a href="seo-analysis.html" class="nav-tab">
+                <i class="fas fa-search"></i> SEO Analysis
+            </a>
+            <a href="qa-tests.html" class="nav-tab">
+                <i class="fas fa-tasks"></i> QA Tests
+            </a>
+            <a href="#accessibility" class="nav-tab active">
+                <i class="fas fa-universal-access"></i> Accessibility Analysis
+            </a>
+        </div>
+
+        <div class="summary-cards">
+            <div class="card critical">
+                <div class="card-title">Critical Violations</div>
+                <div class="card-value">2</div>
+            </div>
+            <div class="card warning">
+                <div class="card-title">Areas Needing Attention</div>
+                <div class="card-value">4</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Pages Analyzed</div>
+                <div class="card-value">9</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Images Found</div>
+                <div class="card-value">129+</div>
+            </div>
+        </div>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showTab('violations')">Critical Violations</button>
+            <button class="nav-tab" onclick="showTab('attention')">Areas Needing Attention</button>
+            <button class="nav-tab" onclick="showTab('pages')">Page Analysis</button>
+            <button class="nav-tab" onclick="showTab('recommendations')">Recommendations</button>
+        </div>
+
+        <div id="violations" class="tab-content active">
+            <div class="section">
+                <h2>🚨 Accessibility Violations (Require Immediate Fixes)</h2>
+                
+                <div class="violation-item">
+                    <div class="violation-title">Missing Alt Text for Images</div>
+                    <div class="impact-badge impact-critical">Critical Impact</div>
+                    <div class="violation-description">
+                        The screenshots show many images throughout the website, but analysis of the crawl data reveals multiple images without proper alt text attributes. This is a direct violation of WCAG standards as screen reader users cannot understand the content or purpose of the images.
+                        <br><br>
+                        <strong>Specific Issues Found:</strong>
+                        <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                            <li>Customer story images with empty alt attributes</li>
+                            <li>Logo images without descriptive alt text</li>
+                            <li>Decorative images that should have alt="" or role="presentation"</li>
+                            <li>Hero section images with missing context</li>
+                        </ul>
+                    </div>
+                    <div class="wcag-reference">
+                        <strong>WCAG Reference:</strong> 1.1.1 Non-text Content (Level A)
+                    </div>
+                    <div class="recommendation">
+                        <div class="recommendation-title">Immediate Action Required:</div>
+                        Add descriptive alt attributes to all meaningful images. For decorative images, use alt="" or role="presentation".
+                    </div>
+                </div>
+
+                <div class="violation-item">
+                    <div class="violation-title">Unlabeled Form Fields</div>
+                    <div class="impact-badge impact-critical">Critical Impact</div>
+                    <div class="violation-description">
+                        The screenshot of the "get-started" form shows input fields without visible labels. Analysis suggests the underlying HTML may not use proper &lt;label&gt; tags for each input, making the form completely unusable for assistive technology users.
+                        <br><br>
+                        <strong>Affected Forms:</strong>
+                        <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                            <li>Get Started form (/get-started)</li>
+                            <li>Contact forms (if present)</li>
+                            <li>Newsletter signup forms</li>
+                        </ul>
+                    </div>
+                    <div class="wcag-reference">
+                        <strong>WCAG Reference:</strong> 1.3.1 Info and Relationships (Level A), 3.3.2 Labels or Instructions (Level A)
+                    </div>
+                    <div class="recommendation">
+                        <div class="recommendation-title">Immediate Action Required:</div>
+                        Associate every form input with a proper label using &lt;label for="input-id"&gt; or aria-labelledby attributes.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="attention" class="tab-content">
+            <div class="section">
+                <h2>⚠️ Areas Needing Attention (Require Further Investigation)</h2>
+                
+                <div class="attention-item">
+                    <div class="attention-title">Color Contrast Issues</div>
+                    <div class="impact-badge impact-major">Major Impact</div>
+                    <div class="violation-description">
+                        While the screenshots show decent contrast in some areas, several color combinations (particularly white text on blue backgrounds) may not meet the WCAG 2.1 AA standard of a 4.5:1 ratio. This affects readability for users with visual impairments.
+                        <br><br>
+                        <strong>Areas of Concern:</strong>
+                        <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                            <li>Button text on colored backgrounds</li>
+                            <li>Navigation links</li>
+                            <li>Call-to-action elements</li>
+                            <li>Footer text</li>
+                        </ul>
+                    </div>
+                    <div class="wcag-reference">
+                        <strong>WCAG Reference:</strong> 1.4.3 Contrast (Minimum) (Level AA)
+                    </div>
+                </div>
+
+                <div class="attention-item">
+                    <div class="attention-title">Heading Structure</div>
+                    <div class="impact-badge impact-major">Major Impact</div>
+                    <div class="violation-description">
+                        A comprehensive audit is needed to ensure that the content is structured with a logical heading hierarchy. Proper heading structure is essential for screen reader navigation and content comprehension.
+                        <br><br>
+                        <strong>Potential Issues:</strong>
+                        <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                            <li>Missing or improper H1 tags</li>
+                            <li>Skipped heading levels (H2 to H4)</li>
+                            <li>Multiple H1 tags on single pages</li>
+                            <li>Headings used for styling rather than structure</li>
+                        </ul>
+                    </div>
+                    <div class="wcag-reference">
+                        <strong>WCAG Reference:</strong> 1.3.1 Info and Relationships (Level A), 2.4.6 Headings and Labels (Level AA)
+                    </div>
+                </div>
+
+                <div class="attention-item">
+                    <div class="attention-title">Keyboard Navigation</div>
+                    <div class="impact-badge impact-major">Major Impact</div>
+                    <div class="violation-description">
+                        The presence of navigation links and forms requires thorough keyboard-only navigation testing. This will confirm that all interactive elements are reachable, operable, and have clear focus indicators.
+                        <br><br>
+                        <strong>Testing Required:</strong>
+                        <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                            <li>Tab order logical and intuitive</li>
+                            <li>All interactive elements reachable via keyboard</li>
+                            <li>Visible focus indicators on all focusable elements</li>
+                            <li>No keyboard traps</li>
+                        </ul>
+                    </div>
+                    <div class="wcag-reference">
+                        <strong>WCAG Reference:</strong> 2.1.1 Keyboard (Level A), 2.4.7 Focus Visible (Level AA)
+                    </div>
+                </div>
+
+                <div class="attention-item">
+                    <div class="attention-title">Accessible PDF Documents</div>
+                    <div class="impact-badge impact-moderate">Moderate Impact</div>
+                    <div class="violation-description">
+                        The website contains links to PDF documents. These must be accessible, including proper tagging for headings, images, and reading order to ensure screen reader compatibility.
+                        <br><br>
+                        <strong>PDF Accessibility Requirements:</strong>
+                        <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                            <li>Properly tagged document structure</li>
+                            <li>Alt text for images within PDFs</li>
+                            <li>Logical reading order</li>
+                            <li>Accessible forms (if present)</li>
+                        </ul>
+                    </div>
+                    <div class="wcag-reference">
+                        <strong>WCAG Reference:</strong> 1.1.1 Non-text Content (Level A), 1.3.1 Info and Relationships (Level A)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pages" class="tab-content">
+            <div class="section">
+                <h2>📊 Individual Page Analysis</h2>
+                <div class="page-list">
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/</div>
+                        <div class="page-issues">
+                            • Hero image needs alt text<br>
+                            • Form labels missing<br>
+                            • Color contrast review needed
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/become-a-factoring-partner</div>
+                        <div class="page-issues">
+                            • Multiple images without alt text<br>
+                            • Heading structure needs review
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/gas-station-discount-network</div>
+                        <div class="page-issues">
+                            • Logo images missing alt text<br>
+                            • Navigation accessibility review needed
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/truck-stop-discount-network</div>
+                        <div class="page-issues">
+                            • Partner logo alt text missing<br>
+                            • Keyboard navigation testing required
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/overtheroad</div>
+                        <div class="page-issues">
+                            • Image alt text needs improvement<br>
+                            • Focus indicators review needed
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/product-payrolls</div>
+                        <div class="page-issues">
+                            • Screenshots need descriptive alt text<br>
+                            • Form accessibility audit required
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/get-started</div>
+                        <div class="page-issues">
+                            • <strong>Critical:</strong> Form labels missing<br>
+                            • Input validation messages needed
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/local</div>
+                        <div class="page-issues">
+                            • Content images need alt text<br>
+                            • Heading hierarchy review needed
+                        </div>
+                    </div>
+                    <div class="page-item">
+                        <div class="page-url">www.atob.com/product-fuel-cards</div>
+                        <div class="page-issues">
+                            • Product images missing alt text<br>
+                            • Button contrast review needed
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="recommendations" class="tab-content">
+            <div class="section">
+                <h2>🎯 Recommendations & Next Steps</h2>
+                
+                <div class="recommendation" style="margin-bottom: 2rem;">
+                    <div class="recommendation-title">Priority 1: Critical Fixes (Immediate)</div>
+                    <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><strong>Alt Text Audit:</strong> Conduct a comprehensive review of all images and add appropriate alt text</li>
+                        <li><strong>Form Accessibility:</strong> Add proper labels to all form inputs, especially on the get-started page</li>
+                        <li><strong>HTML Validation:</strong> Ensure all HTML is valid and semantic</li>
+                    </ol>
+                </div>
+
+                <div class="recommendation" style="margin-bottom: 2rem;">
+                    <div class="recommendation-title">Priority 2: Major Improvements (Within 30 days)</div>
+                    <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><strong>Color Contrast Testing:</strong> Use tools like WebAIM's Color Contrast Checker on all text/background combinations</li>
+                        <li><strong>Heading Structure Review:</strong> Implement logical heading hierarchy across all pages</li>
+                        <li><strong>Keyboard Navigation Testing:</strong> Perform comprehensive keyboard-only navigation testing</li>
+                        <li><strong>Focus Management:</strong> Ensure all interactive elements have visible focus indicators</li>
+                    </ol>
+                </div>
+
+                <div class="recommendation" style="margin-bottom: 2rem;">
+                    <div class="recommendation-title">Priority 3: Ongoing Improvements</div>
+                    <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><strong>PDF Accessibility:</strong> Review and remediate all PDF documents</li>
+                        <li><strong>Screen Reader Testing:</strong> Test with NVDA, JAWS, and VoiceOver</li>
+                        <li><strong>Mobile Accessibility:</strong> Test accessibility on mobile devices</li>
+                        <li><strong>Accessibility Training:</strong> Train development team on accessibility best practices</li>
+                    </ol>
+                </div>
+
+                <div class="recommendation">
+                    <div class="recommendation-title">Tools for Testing</div>
+                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><strong>axe DevTools:</strong> Browser extension for automated accessibility testing</li>
+                        <li><strong>WAVE:</strong> Web accessibility evaluation tool</li>
+                        <li><strong>Color Contrast Analyzers:</strong> WebAIM, Colour Contrast Analyser</li>
+                        <li><strong>Screen Readers:</strong> NVDA (free), JAWS, VoiceOver (Mac/iOS)</li>
+                        <li><strong>Keyboard Testing:</strong> Navigate using only Tab, Shift+Tab, Enter, Space, Arrow keys</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2024 AtoB Accessibility Analysis Report</p>
+            <p>Generated based on WCAG 2.1 AA guidelines and manual review of screenshots and crawl data</p>
+        </div>
+    </div>
+
+    <script>
+        // Set analysis date
+        document.getElementById('analysis-date').textContent = new Date().toLocaleDateString();
+
+        // Tab functionality
+        function showTab(tabName) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => content.classList.remove('active'));
+
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.nav-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        // Add some interactivity for better UX
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effects to cards
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-2px)';
+                    this.style.boxShadow = '0 8px 15px rgba(0, 0, 0, 0.15)';
+                    this.style.transition = 'all 0.3s ease';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

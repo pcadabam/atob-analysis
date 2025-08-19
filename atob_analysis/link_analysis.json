@@ -1,0 +1,1755 @@
+{
+  "all_links": [
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Login",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "mailto:jeremiah%40atob.com?subject=Hey+there%21+We%27re+interested+in+becoming+a+factoring+partner+of+AtoB.",
+      "type": "external",
+      "text": "Partner with AtoB today",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/become-a-factoring-partner",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/gas-station-discount-network",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/truck-stop-discount-network",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/overtheroad",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-payrolls",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/get-started",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/get-started",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/get-started",
+      "target": "https://www.atob.com/platform-agreement?__hsfp=2624573244&__hssc=17958374.1.1753366566965&__hstc=17958374.8b18b96b2f66304e40c6dd455a342ee6.1734104150175.1753190689612.1753366566965.77&_gl=1%2A1lindpw%2A_gcl_au%2AODIxMTQ3MTU5LjE3NDk4MzAzMTguNDQxOTgwNDIyLjE3NTEzNjgxODYuMTc1MTM2ODIwNQ..%2A_ga%2AMjAwNTY3MTMzNy4xNzM0MTA0MTQ5%2A_ga_Y6MGR39Y3J%2AczE3NTMzNjY1NjYkbzEwMCRnMCR0MTc1MzM2NjU2NyRqNTkkbDAkaDA.",
+      "type": "internal",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/get-started",
+      "target": "https://www.atob.com/privacy-policy?__hsfp=2624573244&__hssc=17958374.1.1753366566965&__hstc=17958374.8b18b96b2f66304e40c6dd455a342ee6.1734104150175.1753190689612.1753366566965.77&_gl=1%2A1n36c3f%2A_gcl_au%2AODIxMTQ3MTU5LjE3NDk4MzAzMTguNDQxOTgwNDIyLjE3NTEzNjgxODYuMTc1MTM2ODIwNQ..%2A_ga%2AMjAwNTY3MTMzNy4xNzM0MTA0MTQ5%2A_ga_Y6MGR39Y3J%2AczE3NTMzNjY1NjYkbzEwMCRnMCR0MTc1MzM2NjU4MiRqNDQkbDAkaDA.",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/get-started",
+      "target": "mailto:support%40atob.com",
+      "type": "external",
+      "text": "support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/get-started",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/discounts",
+      "type": "internal",
+      "text": "discounts on gas purchases",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "AtoB Perks",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/local",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://app.atob.com",
+      "type": "internal",
+      "text": "Log inLog in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/get-started",
+      "type": "internal",
+      "text": "Get startedGet started",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/product-fuel-cards",
+      "type": "internal",
+      "text": "Fuel cards\n\n\nCompetitive fuel discounts and powerful security controls.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/product-payrolls",
+      "type": "internal",
+      "text": "Driver Pay\n\n\nPay drivers instantly \u2014 and for less \u2014 with AtoB.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/truck-stop-discount-network",
+      "type": "internal",
+      "text": "AtoB Truck Stop Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/gas-station-discount-network",
+      "type": "internal",
+      "text": "AtoB Gas Station Discount Network",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/local",
+      "type": "internal",
+      "text": "Local businesses\n\n\nFor neighborhood, regional, and other short-journey fleets.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/overtheroad",
+      "type": "internal",
+      "text": "Over the road fleets\n\n\nFor fleets with nationwide and interstate reach.",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/become-a-factoring-partner",
+      "type": "internal",
+      "text": "Factoring partners\n\n\nLaunch a cobranded card solution with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/become-a-broker-partner",
+      "type": "internal",
+      "text": "Broker partners\n\n\nLaunch your fuel card program with AtoB",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/become-a-merchant-partner",
+      "type": "internal",
+      "text": "Merchant partners\n\n\nJoin the AtoB Discount Network and grow your gallons",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/electricvehicles",
+      "type": "internal",
+      "text": "Electric Vehicles",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/blog",
+      "type": "internal",
+      "text": "Blog",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/about-us",
+      "type": "internal",
+      "text": "About",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://app.atob.com/",
+      "type": "internal",
+      "text": "Log in",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/platform-agreement",
+      "type": "internal",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/privacy-policy",
+      "type": "internal",
+      "text": "Privacy Policy",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/perks",
+      "type": "internal",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/7-eleven-gas-station",
+      "type": "internal",
+      "text": "7-Eleven",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/racetrac-fuel-station",
+      "type": "internal",
+      "text": "RaceTrac",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/caseys-fuel-station",
+      "type": "internal",
+      "text": "Casey's",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/chevron-fuel-station",
+      "type": "internal",
+      "text": "Chevron",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/blog/what-is-telematics",
+      "type": "internal",
+      "text": "telematics",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/blog/how-to-prevent-fuel-card-fraud",
+      "type": "internal",
+      "text": "fuel fraud",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/learn",
+      "type": "internal",
+      "text": "Learn",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.atob.com/fuelstations",
+      "type": "internal",
+      "text": "Fuel Partners",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.trustpilot.com/review/atob.com",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://apps.apple.com/us/app/atob-driver/id1618855693",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.bbb.org/us/ca/san-francisco/profile/credit-cards-and-plans/atob-1116-925889",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "tel:%2B18339472862",
+      "type": "external",
+      "text": "Customer Support:833-947-2862",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "mailto:hello%40atob.com?subject=AtoB+Website",
+      "type": "external",
+      "text": "Customer Support Email:support@atob.com",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://9232944.fs1.hubspotusercontent-na1.net/hubfs/9232944/Sign%20in%20and%20Claim%20a%20Discount%20on%20the%20Driver%20App%20%281%29.pdf",
+      "type": "external",
+      "text": "AtoB App Overview",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BFee%2BSchedule%2BLatest.pdf",
+      "type": "external",
+      "text": "Fee Schedule",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://jobs.ashbyhq.com/atob",
+      "type": "external",
+      "text": "Careers",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://staic-files-hosting.s3.us-west-1.amazonaws.com/AtoB%2BPlatform%2BAgreement%2BLatest.pdf",
+      "type": "external",
+      "text": "Platform Agreement",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.facebook.com/atobHQ",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.instagram.com/atobfuel",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    },
+    {
+      "source": "https://www.atob.com/product-fuel-cards",
+      "target": "https://www.linkedin.com/company/goatob",
+      "type": "external",
+      "text": "",
+      "status": "unknown"
+    }
+  ],
+  "broken_links": []
+}

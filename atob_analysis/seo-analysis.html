@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Analysis - AtoB Website Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .nav-tabs {
+            display: flex;
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .nav-tab {
+            flex: 1;
+            padding: 15px 20px;
+            text-align: center;
+            background: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .nav-tab:hover, .nav-tab.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .seo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .seo-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #2d3748;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .page-analysis {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .page-url {
+            font-size: 1rem;
+            color: #667eea;
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        .page-status {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .status-good {
+            background: #c6f6d5;
+            color: #2f855a;
+        }
+
+        .status-warning {
+            background: #fed7aa;
+            color: #c05621;
+        }
+
+        .status-error {
+            background: #fed7d7;
+            color: #c53030;
+        }
+
+        .seo-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .metric {
+            background: #f7fafc;
+            padding: 16px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .metric-label {
+            font-size: 0.85rem;
+            color: #718096;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .issues-list {
+            margin-top: 16px;
+        }
+
+        .issue-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .issue-item:last-child {
+            border-bottom: none;
+        }
+
+        .issue-icon {
+            margin-right: 12px;
+            margin-top: 2px;
+            width: 16px;
+        }
+
+        .issue-text {
+            flex: 1;
+            color: #2d3748;
+            line-height: 1.5;
+        }
+
+        .recommendations {
+            background: #e6fffa;
+            border: 1px solid #81e6d9;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .recommendation-title {
+            font-weight: 600;
+            color: #234e52;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .recommendation-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .recommendation-list li {
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+            color: #2c7a7b;
+            line-height: 1.5;
+        }
+
+        .recommendation-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #38b2ac;
+            font-weight: bold;
+        }
+
+        .title-length-visual {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .length-bar {
+            flex: 1;
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .length-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .length-optimal {
+            background: #48bb78;
+        }
+
+        .length-warning {
+            background: #ed8936;
+        }
+
+        .length-error {
+            background: #f56565;
+        }
+
+        .length-text {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        @media (max-width: 768px) {
+            .seo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-tabs {
+                flex-direction: column;
+            }
+            
+            .page-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-search"></i> SEO Analysis Dashboard</h1>
+            <p>Detailed SEO analysis for AtoB website pages</p>
+        </div>
+
+        <div class="nav-tabs">
+            <a href="dashboard.html" class="nav-tab">
+                <i class="fas fa-tachometer-alt"></i> Overview
+            </a>
+            <a href="#seo" class="nav-tab active">
+                <i class="fas fa-search"></i> SEO Analysis
+            </a>
+            <a href="qa-tests.html" class="nav-tab">
+                <i class="fas fa-tasks"></i> QA Tests
+            </a>
+            <a href="content-analysis.html" class="nav-tab">
+                <i class="fas fa-universal-access"></i> Accessibility Analysis
+            </a>
+        </div>
+
+        <div class="seo-grid">
+            <div class="seo-card">
+                <h3 class="card-title">
+                    <i class="fas fa-chart-pie"></i>
+                    SEO Summary
+                </h3>
+                <canvas id="seoSummaryChart"></canvas>
+            </div>
+
+            <div class="seo-card">
+                <h3 class="card-title">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Issue Distribution
+                </h3>
+                <div class="seo-metrics">
+                    <div class="metric">
+                        <div class="metric-label">Title Issues</div>
+                        <div class="metric-value">3</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Meta Description Issues</div>
+                        <div class="metric-value">3</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Pages with Issues</div>
+                        <div class="metric-value">4 of 9</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Clean Pages</div>
+                        <div class="metric-value">5 of 9</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Page -->
+        <div class="page-analysis">
+            <div class="page-header">
+                <div class="page-url">https://www.atob.com/</div>
+                <div class="page-status status-warning">1 Issue</div>
+            </div>
+            
+            <div class="seo-metrics">
+                <div class="metric">
+                    <div class="metric-label">Title Length</div>
+                    <div class="metric-value">67 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-error" style="width: 111%;"></div>
+                        </div>
+                        <div class="length-text">Too Long</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Meta Description</div>
+                    <div class="metric-value">144 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-optimal" style="width: 90%;"></div>
+                        </div>
+                        <div class="length-text">Good</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issues-list">
+                <div class="issue-item">
+                    <i class="fas fa-exclamation-triangle issue-icon" style="color: #f56565;"></i>
+                    <div class="issue-text">
+                        <strong>Title too long:</strong> Current title is 67 characters. Recommended length is 30-60 characters for optimal display in search results.
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <div class="recommendation-title">
+                    <i class="fas fa-lightbulb"></i>
+                    Recommendations
+                </div>
+                <ul class="recommendation-list">
+                    <li>Shorten the title to focus on primary keywords: "Trucking Fuel Cards & Fleet Management | AtoB"</li>
+                    <li>Consider A/B testing different title variations to improve click-through rates</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Factoring Partner Page -->
+        <div class="page-analysis">
+            <div class="page-header">
+                <div class="page-url">https://www.atob.com/become-a-factoring-partner</div>
+                <div class="page-status status-error">1 Issue</div>
+            </div>
+            
+            <div class="seo-metrics">
+                <div class="metric">
+                    <div class="metric-label">Title Length</div>
+                    <div class="metric-value">16 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-error" style="width: 27%;"></div>
+                        </div>
+                        <div class="length-text">Too Short</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Meta Description</div>
+                    <div class="metric-value">140 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-optimal" style="width: 87%;"></div>
+                        </div>
+                        <div class="length-text">Good</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issues-list">
+                <div class="issue-item">
+                    <i class="fas fa-exclamation-triangle issue-icon" style="color: #f56565;"></i>
+                    <div class="issue-text">
+                        <strong>Title too short:</strong> Current title is only 16 characters. Recommended minimum is 30 characters for better keyword optimization.
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <div class="recommendation-title">
+                    <i class="fas fa-lightbulb"></i>
+                    Recommendations
+                </div>
+                <ul class="recommendation-list">
+                    <li>Expand title to include relevant keywords: "Become a Factoring Partner - Fleet Card Solutions | AtoB"</li>
+                    <li>Include value proposition in the title to improve click-through rates</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Gas Station Network Page -->
+        <div class="page-analysis">
+            <div class="page-header">
+                <div class="page-url">https://www.atob.com/gas-station-discount-network</div>
+                <div class="page-status status-warning">1 Issue</div>
+            </div>
+            
+            <div class="seo-metrics">
+                <div class="metric">
+                    <div class="metric-label">Title Length</div>
+                    <div class="metric-value">55 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-optimal" style="width: 92%;"></div>
+                        </div>
+                        <div class="length-text">Good</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Meta Description</div>
+                    <div class="metric-value">173 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-warning" style="width: 108%;"></div>
+                        </div>
+                        <div class="length-text">Too Long</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issues-list">
+                <div class="issue-item">
+                    <i class="fas fa-exclamation-triangle issue-icon" style="color: #ed8936;"></i>
+                    <div class="issue-text">
+                        <strong>Meta description too long:</strong> Current description is 173 characters. Search engines may truncate descriptions over 160 characters.
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <div class="recommendation-title">
+                    <i class="fas fa-lightbulb"></i>
+                    Recommendations
+                </div>
+                <ul class="recommendation-list">
+                    <li>Trim meta description to focus on key benefits within 160 characters</li>
+                    <li>Ensure most important information appears in the first 120 characters</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Truck Stop Network Page -->
+        <div class="page-analysis">
+            <div class="page-header">
+                <div class="page-url">https://www.atob.com/truck-stop-discount-network</div>
+                <div class="page-status status-warning">1 Issue</div>
+            </div>
+            
+            <div class="seo-metrics">
+                <div class="metric">
+                    <div class="metric-label">Title Length</div>
+                    <div class="metric-value">56 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-optimal" style="width: 93%;"></div>
+                        </div>
+                        <div class="length-text">Good</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Meta Description</div>
+                    <div class="metric-value">185 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-error" style="width: 116%;"></div>
+                        </div>
+                        <div class="length-text">Too Long</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issues-list">
+                <div class="issue-item">
+                    <i class="fas fa-exclamation-triangle issue-icon" style="color: #ed8936;"></i>
+                    <div class="issue-text">
+                        <strong>Meta description too long:</strong> Current description is 185 characters. This will be truncated in search results, potentially cutting off important information.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Get Started Page -->
+        <div class="page-analysis">
+            <div class="page-header">
+                <div class="page-url">https://www.atob.com/get-started</div>
+                <div class="page-status status-error">2 Issues</div>
+            </div>
+            
+            <div class="seo-metrics">
+                <div class="metric">
+                    <div class="metric-label">Title Length</div>
+                    <div class="metric-value">11 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-error" style="width: 18%;"></div>
+                        </div>
+                        <div class="length-text">Too Short</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Meta Description</div>
+                    <div class="metric-value">114 characters</div>
+                    <div class="title-length-visual">
+                        <div class="length-bar">
+                            <div class="length-fill length-warning" style="width: 71%;"></div>
+                        </div>
+                        <div class="length-text">Too Short</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="issues-list">
+                <div class="issue-item">
+                    <i class="fas fa-exclamation-triangle issue-icon" style="color: #f56565;"></i>
+                    <div class="issue-text">
+                        <strong>Title too short:</strong> "Get Started" is only 11 characters and lacks descriptive keywords.
+                    </div>
+                </div>
+                <div class="issue-item">
+                    <i class="fas fa-exclamation-triangle issue-icon" style="color: #ed8936;"></i>
+                    <div class="issue-text">
+                        <strong>Meta description too short:</strong> At 114 characters, there's room to include more compelling information.
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <div class="recommendation-title">
+                    <i class="fas fa-lightbulb"></i>
+                    Recommendations
+                </div>
+                <ul class="recommendation-list">
+                    <li>Expand title: "Get Started with AtoB Fleet Cards - Sign Up Today"</li>
+                    <li>Enhance meta description with benefits and call-to-action</li>
+                    <li>Include relevant keywords like "fleet management" and "fuel discounts"</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // SEO Summary Chart
+        const seoCtx = document.getElementById('seoSummaryChart').getContext('2d');
+        new Chart(seoCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Pages with Issues', 'Clean Pages'],
+                datasets: [{
+                    data: [4, 5],
+                    backgroundColor: ['#f56565', '#48bb78'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                    }
+                },
+                cutout: '60%'
+            }
+        });
+    </script>
+</body>
+</html>

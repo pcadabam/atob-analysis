@@ -1,0 +1,78 @@
+WEBSITE ANALYSIS SUMMARY REPORT
+==================================================
+
+OVERVIEW
+--------------------
+Total pages analyzed: 9
+Total QA test cases: 81
+Failed tests: 23
+Tests needing review: 9
+
+SEO ANALYSIS
+--------------------
+Total SEO issues found: 6
+
+URL: https://www.atob.com/
+  - Title too long (67 chars)
+
+URL: https://www.atob.com/become-a-factoring-partner
+  - Title too short (16 chars)
+
+URL: https://www.atob.com/gas-station-discount-network
+  - Meta description too long (173 chars)
+
+URL: https://www.atob.com/truck-stop-discount-network
+  - Meta description too long (185 chars)
+
+URL: https://www.atob.com/get-started
+  - Title too short (11 chars)
+  - Meta description too short (114 chars)
+
+CONTENT ANALYSIS
+--------------------
+Average word count per page: 1068
+Total images without alt text: 16
+
+LINK ANALYSIS
+--------------------
+Total links found: 250
+Broken links: 0
+
+QA TEST SUMMARY BY CATEGORY
+------------------------------
+SEO:
+  Total tests: 18
+  Failed: 6
+  Need review: 0
+  Pass rate: 66.7%
+
+Accessibility:
+  Total tests: 9
+  Failed: 8
+  Need review: 0
+  Pass rate: 11.1%
+
+Content:
+  Total tests: 18
+  Failed: 7
+  Need review: 0
+  Pass rate: 61.1%
+
+Functionality:
+  Total tests: 9
+  Failed: 0
+  Need review: 0
+  Pass rate: 100.0%
+
+Performance:
+  Total tests: 9
+  Failed: 2
+  Need review: 0
+  Pass rate: 77.8%
+
+Security:
+  Total tests: 18
+  Failed: 0
+  Need review: 9
+  Pass rate: 50.0%
+

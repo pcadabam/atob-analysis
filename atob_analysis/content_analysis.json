@@ -1,0 +1,164 @@
+[
+  {
+    "url": "https://www.atob.com/",
+    "word_count": 1828,
+    "char_count": 12834,
+    "headings": {
+      "h1": 1,
+      "h2": 27,
+      "h3": 21,
+      "h4": 1,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 50,
+    "images_without_alt": 0,
+    "links": 71,
+    "forms": 3,
+    "readability_score": 10.292165483956728
+  },
+  {
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "word_count": 797,
+    "char_count": 5799,
+    "headings": {
+      "h1": 2,
+      "h2": 11,
+      "h3": 10,
+      "h4": 3,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 29,
+    "images_without_alt": 2,
+    "links": 64,
+    "forms": 2,
+    "readability_score": 10.689432594451416
+  },
+  {
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "word_count": 637,
+    "char_count": 4506,
+    "headings": {
+      "h1": 3,
+      "h2": 9,
+      "h3": 0,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 129,
+    "images_without_alt": 2,
+    "links": 141,
+    "forms": 2,
+    "readability_score": 12.029923532688509
+  },
+  {
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "word_count": 541,
+    "char_count": 3974,
+    "headings": {
+      "h1": 4,
+      "h2": 9,
+      "h3": 0,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 87,
+    "images_without_alt": 2,
+    "links": 68,
+    "forms": 2,
+    "readability_score": 10.024141600851397
+  },
+  {
+    "url": "https://www.atob.com/overtheroad",
+    "word_count": 1247,
+    "char_count": 8866,
+    "headings": {
+      "h1": 5,
+      "h2": 20,
+      "h3": 8,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 48,
+    "images_without_alt": 2,
+    "links": 71,
+    "forms": 3,
+    "readability_score": 8.803693358442283
+  },
+  {
+    "url": "https://www.atob.com/product-payrolls",
+    "word_count": 729,
+    "char_count": 5293,
+    "headings": {
+      "h1": 6,
+      "h2": 11,
+      "h3": 4,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 38,
+    "images_without_alt": 2,
+    "links": 73,
+    "forms": 2,
+    "readability_score": 8.106704980842911
+  },
+  {
+    "url": "https://www.atob.com/get-started",
+    "word_count": 341,
+    "char_count": 2638,
+    "headings": {
+      "h1": 1,
+      "h2": 30,
+      "h3": 0,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 36,
+    "images_without_alt": 2,
+    "links": 8,
+    "forms": 1,
+    "readability_score": 9.687243401759531
+  },
+  {
+    "url": "https://www.atob.com/local",
+    "word_count": 1113,
+    "char_count": 7817,
+    "headings": {
+      "h1": 5,
+      "h2": 11,
+      "h3": 8,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "images": 40,
+    "images_without_alt": 2,
+    "links": 72,
+    "forms": 3,
+    "readability_score": 9.39148174131374
+  },
+  {
+    "url": "https://www.atob.com/product-fuel-cards",
+    "word_count": 2380,
+    "char_count": 16462,
+    "headings": {
+      "h1": 13,
+      "h2": 17,
+      "h3": 30,
+      "h4": 12,
+      "h5": 1,
+      "h6": 0
+    },
+    "images": 106,
+    "images_without_alt": 2,
+    "links": 107,
+    "forms": 3,
+    "readability_score": 11.352152344808893
+  }
+]

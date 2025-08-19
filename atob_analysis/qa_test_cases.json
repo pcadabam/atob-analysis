@@ -1,0 +1,785 @@
+[
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Fail"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Fail"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Fail"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Fail"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Fail"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Fail"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/local",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/local",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Title Tag Validation",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify title tag exists and is 30-60 characters",
+    "expected": "Title should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "SEO",
+    "test_type": "Meta Description Validation",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify meta description exists and is 120-160 characters",
+    "expected": "Meta description should be present and optimally sized",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 of 50 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 1828 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "H1 count: 1"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 29 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 797 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 2"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 129 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 637 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 3"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 87 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 541 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 4"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 48 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 1247 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 5"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 38 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 729 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 6"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 36 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 341 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "H1 count: 1"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/local",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 40 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/local",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 1113 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/local",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 5"
+  },
+  {
+    "category": "Accessibility",
+    "test_type": "Image Alt Text",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify all images have alt text",
+    "expected": "All images should have descriptive alt text",
+    "priority": "High",
+    "current_status": "Fail",
+    "details": "2 of 106 images missing alt text"
+  },
+  {
+    "category": "Content",
+    "test_type": "Content Length",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify page has sufficient content",
+    "expected": "Page should have at least 300 words",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "Page has 2380 words"
+  },
+  {
+    "category": "Content",
+    "test_type": "Heading Structure",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify proper heading hierarchy",
+    "expected": "Page should have exactly one H1 and logical heading structure",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "H1 count: 13"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 29 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/local",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 30 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 29 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 29 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 6 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 39 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 30 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 29 total"
+  },
+  {
+    "category": "Functionality",
+    "test_type": "Link Validation",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify all links are functional",
+    "expected": "All links should return valid responses",
+    "priority": "High",
+    "current_status": "Pass",
+    "details": "0 broken links out of 29 total"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 237.2KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 107.5KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 163.6KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 127.5KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 271.9KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "HTML size: 1070.8KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 72.8KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/local",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Fail",
+    "details": "HTML size: 1205.2KB"
+  },
+  {
+    "category": "Performance",
+    "test_type": "Page Size",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify page size is reasonable",
+    "expected": "HTML size should be under 500KB",
+    "priority": "Medium",
+    "current_status": "Pass",
+    "details": "HTML size: 207.1KB"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "22 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/become-a-factoring-partner",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "40 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/gas-station-discount-network",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "44 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/truck-stop-discount-network",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "44 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/overtheroad",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "41 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/product-payrolls",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "40 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/get-started",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/get-started",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "41 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/local",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/local",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "41 external scripts found"
+  },
+  {
+    "category": "Security",
+    "test_type": "HTTPS Usage",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Verify page uses HTTPS",
+    "expected": "All pages should use HTTPS protocol",
+    "priority": "High",
+    "current_status": "Pass"
+  },
+  {
+    "category": "Security",
+    "test_type": "External Scripts",
+    "url": "https://www.atob.com/product-fuel-cards",
+    "description": "Review external script dependencies",
+    "expected": "Minimize external script dependencies",
+    "priority": "Medium",
+    "current_status": "Review",
+    "details": "42 external scripts found"
+  }
+]
