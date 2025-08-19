@@ -145,6 +145,46 @@
             margin-top: 8px;
         }
 
+        .sitemap-section {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-top: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .sitemap-description {
+            color: #4a5568;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .sitemap-image-container {
+            text-align: center;
+            background: #f7fafc;
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .sitemap-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
 
         @media (max-width: 768px) {
             .stats-grid {
@@ -180,6 +220,9 @@
             </a>
             <a href="content-analysis.html" class="nav-tab">
                 <i class="fas fa-universal-access"></i> Accessibility Analysis
+            </a>
+            <a href="screenshots.html" class="nav-tab">
+                <i class="fas fa-images"></i> Screenshots
             </a>
         </div>
 
@@ -224,16 +267,32 @@
                     </div>
                 </a>
 
-                <div class="stat-card">
+                <a href="screenshots.html" class="stat-card clickable-card">
                     <div class="stat-header">
                         <div>
-                            <div class="stat-value">Coming Soon</div>
-                            <div class="stat-label">Performance Analysis</div>
-                            <div class="card-description">Page load times, Core Web Vitals, and performance optimization recommendations</div>
+                            <div class="stat-value">Screenshots</div>
+                            <div class="stat-label">Visual Page Gallery</div>
+                            <div class="card-description">Visual gallery of all 9 pages captured during the website crawl analysis</div>
                         </div>
                         <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-                            <i class="fas fa-tachometer-alt"></i>
+                            <i class="fas fa-images"></i>
                         </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Site Map Section -->
+            <div class="sitemap-section">
+                <h2 class="section-title">
+                    <i class="fas fa-sitemap"></i>
+                    Website Structure & Site Map
+                </h2>
+                <div class="sitemap-container">
+                    <p class="sitemap-description">
+                        Visual representation of the AtoB website structure showing page relationships and internal linking patterns.
+                    </p>
+                    <div class="sitemap-image-container">
+                        <img src="../atob_sitemap/sitemap.png" alt="AtoB Website Sitemap - Visual representation showing page relationships and internal linking structure" class="sitemap-image">
                     </div>
                 </div>
             </div>
